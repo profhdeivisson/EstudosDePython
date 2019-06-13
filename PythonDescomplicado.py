@@ -1,8 +1,5 @@
 class SimpleName:
     def __init__(self, nome):
-        self.nome = nome
-
-    def limpa_nome(self):
         self.nome = nome.strip()
 
     def mostrar_nome(self):
@@ -11,5 +8,5 @@ class SimpleName:
 simpleName = SimpleName('            Deivisson')
 simpleName.mostrar_nome()
 
-simpleName = SimpleName('Gustavo')
+simpleName = SimpleName('Gustavo          ')
 simpleName.mostrar_nome()
