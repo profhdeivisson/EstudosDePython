@@ -1,7 +1,6 @@
 class SimpleName:
     def __init__(self, nome):
         self.nome = nome.strip()
-
     def mostrar_nome(self):
         print(f'O nome passado por parâmetro é {self.nome}')
 
